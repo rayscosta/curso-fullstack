@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 35%, rgba(13,33,139,1) 100%);
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 16px;
+}
